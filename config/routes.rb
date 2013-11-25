@@ -1,6 +1,7 @@
 Sunscreen::Application.routes.draw do
   root 'pages#home' #creates a root path
   get "about" => "pages#about" #creates an about path
+  get "whatis" => "pages#whatis" #creates an what-is path
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
