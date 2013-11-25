@@ -1,8 +1,11 @@
-$navbar-border-radius: 0;
-$navbar-inverse-bg: #34495e;
-$navbar-inverse-brand-hover-color: #e74c3c; 
-$navbar-inverse-link-hover-color: #f1c40f;
-$navbar-inverse-link-color: white;
-$jumbotron-bg: #f1c40f; 
-$body-bg: #f1c40f;
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+$font-family-sans-serif				: 'Lato';
+$navbar-border-radius				: 0;
+$navbar-default-bg					: #34495e;
+$navbar-height						: 75px; 
+$navbar-default-brand-hover-color	: #e74c3c; 
+$navbar-default-link-hover-color	: #f1c40f;
+$navbar-default-link-color 			: white;
+$jumbotron-bg						: #f1c40f; 
+$body-bg							: #f1c40f;
 @import 'bootstrap';
