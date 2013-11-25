@@ -3,9 +3,17 @@ $font-family-sans-serif				: 'Lato';
 $navbar-border-radius				: 0;
 $navbar-default-bg					: #34495e;
 $navbar-height						: 75px; 
-$navbar-default-brand-hover-color	: #e74c3c; 
+$navbar-default-brand-hover-color	: #f1c40f; 
 $navbar-default-link-hover-color	: #f1c40f;
 $navbar-default-link-color 			: white;
 $jumbotron-bg						: #f1c40f; 
 $body-bg							: #f1c40f;
 @import 'bootstrap';
+
+.navbar-brand {
+     font-weight: bold;
+}
+
+.center {
+     text-align: center;
+}
