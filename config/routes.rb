@@ -1,4 +1,5 @@
 Sunscreen::Application.routes.draw do
+  devise_for :users
   root 'pages#home' #creates a root path
   get "about" => "pages#about" #creates an about path
   get "whatis" => "pages#whatis" #creates an what-is path
